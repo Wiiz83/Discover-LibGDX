@@ -1,0 +1,350 @@
+18:19:58.328 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-Xms128m, -Xmx1500m, -Dfile.encoding=windows-1252, -Duser.country=FR, -Duser.language=fr, -Duser.variant]
+18:19:58.353 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+18:19:58.389 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=0c8960bf-3a95-4eff-8877-388066ab9434,javaHome=C:\Program Files\Java\jre1.8.0_202,daemonRegistryDir=C:\Users\lorik\.gradle\daemon,pid=18384,idleTimeout=120000,daemonOpts=-Xms128m,-Xmx1500m,-Dfile.encoding=windows-1252,-Duser.country=FR,-Duser.language=fr,-Duser.variant]
+18:19:58.699 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+18:19:58.701 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+18:19:58.703 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.703 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+18:19:58.704 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+18:19:58.704 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Software Loopback Interface 1
+18:19:58.704 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+18:19:58.706 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.708 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.708 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (PPTP)
+18:19:58.708 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+18:19:58.710 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.712 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.712 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft 6to4 Adapter
+18:19:58.712 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+18:19:58.714 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.716 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.716 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IPv6)
+18:19:58.717 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+18:19:58.719 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.721 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.721 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft IP-HTTPS Platform Adapter
+18:19:58.721 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer E2500 Gigabit Ethernet Controller
+18:19:58.723 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.725 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.725 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:50ab:3360:e79f:8c2c%eth1
+18:19:58.725 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface Killer E2500 Gigabit Ethernet Controller
+18:19:58.725 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+18:19:58.727 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.729 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.729 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IP)
+18:19:58.730 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+18:19:58.731 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.733 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.733 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (Network Monitor)
+18:19:58.734 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+18:19:58.735 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.737 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.738 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:f0a3:1d0a:bbf1:66f1%eth4
+18:19:58.738 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface Bluetooth Device (Personal Area Network)
+18:19:58.738 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+18:19:58.740 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.742 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.742 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (PPPOE)
+18:19:58.742 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+18:19:58.744 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.746 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.746 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Kernel Debug Network Adapter
+18:19:58.746 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+18:19:58.748 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.749 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.750 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Teredo Tunneling Adapter
+18:19:58.750 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+18:19:58.751 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.754 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.754 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (L2TP)
+18:19:58.754 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm QCA61x4A 802.11ac Wireless Adapter
+18:19:58.756 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.758 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.758 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.0.41
+18:19:58.758 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:4db3:75b8:478d:d0e6%wlan0
+18:19:58.758 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface Qualcomm QCA61x4A 802.11ac Wireless Adapter
+18:19:58.758 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #4
+18:19:58.760 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.762 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.762 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #4
+18:19:58.762 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+18:19:58.764 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.766 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.766 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (SSTP)
+18:19:58.766 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter
+18:19:58.768 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.770 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.770 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:a07e:b29:72db:ff23%wlan2
+18:19:58.770 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface Microsoft Wi-Fi Direct Virtual Adapter
+18:19:58.770 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #3
+18:19:58.772 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.773 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.774 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #3
+18:19:58.774 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2
+18:19:58.776 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.777 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.777 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:f43d:6d9e:8e97:6fcb%wlan4
+18:19:58.778 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2
+18:19:58.778 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+18:19:58.779 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.781 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.781 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IKEv2)
+18:19:58.781 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer E2500 Gigabit Ethernet Controller-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.783 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.785 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.785 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Killer E2500 Gigabit Ethernet Controller-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.785 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer E2500 Gigabit Ethernet Controller-QoS Packet Scheduler-0000
+18:19:58.787 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.789 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.789 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Killer E2500 Gigabit Ethernet Controller-QoS Packet Scheduler-0000
+18:19:58.789 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer E2500 Gigabit Ethernet Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:19:58.791 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.793 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.793 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Killer E2500 Gigabit Ethernet Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:19:58.793 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm QCA61x4A 802.11ac Wireless Adapter-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.795 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.797 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.797 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Qualcomm QCA61x4A 802.11ac Wireless Adapter-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.797 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm QCA61x4A 802.11ac Wireless Adapter-Virtual WiFi Filter Driver-0000
+18:19:58.799 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.800 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.800 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Qualcomm QCA61x4A 802.11ac Wireless Adapter-Virtual WiFi Filter Driver-0000
+18:19:58.800 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm QCA61x4A 802.11ac Wireless Adapter-Native WiFi Filter Driver-0000
+18:19:58.802 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.804 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.804 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Qualcomm QCA61x4A 802.11ac Wireless Adapter-Native WiFi Filter Driver-0000
+18:19:58.804 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm QCA61x4A 802.11ac Wireless Adapter-QoS Packet Scheduler-0000
+18:19:58.806 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.808 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.808 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Qualcomm QCA61x4A 802.11ac Wireless Adapter-QoS Packet Scheduler-0000
+18:19:58.808 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm QCA61x4A 802.11ac Wireless Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:19:58.810 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.812 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.812 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Qualcomm QCA61x4A 802.11ac Wireless Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:19:58.812 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.814 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.816 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.816 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.816 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+18:19:58.818 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.820 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.820 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+18:19:58.820 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.822 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.824 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.825 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.825 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+18:19:58.827 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.828 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.828 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+18:19:58.829 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.830 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.832 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.832 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.832 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+18:19:58.834 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.836 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.836 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+18:19:58.836 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.838 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.840 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.840 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.840 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+18:19:58.842 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.844 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.844 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+18:19:58.844 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+18:19:58.846 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.848 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.848 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+18:19:58.848 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:19:58.850 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.852 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.852 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:19:58.852 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.854 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.856 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.856 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+18:19:58.856 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000
+18:19:58.858 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.860 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.860 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000
+18:19:58.860 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000
+18:19:58.862 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.864 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.864 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000
+18:19:58.864 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:19:58.865 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+18:19:58.867 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+18:19:58.867 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:19:58.869 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [d0c5a529-90dc-44cd-a3b0-671a680498df port:54176, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]].
+18:19:58.871 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Fri Feb 22 18:19:58 CET 2019, with address: [d0c5a529-90dc-44cd-a3b0-671a680498df port:54176, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:19:58.872 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [d0c5a529-90dc-44cd-a3b0-671a680498df port:54176, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:19:58.872 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=0c8960bf-3a95-4eff-8877-388066ab9434,javaHome=C:\Program Files\Java\jre1.8.0_202,daemonRegistryDir=C:\Users\lorik\.gradle\daemon,pid=18384,idleTimeout=120000,daemonOpts=-Xms128m,-Xmx1500m,-Dfile.encoding=windows-1252,-Duser.country=FR,-Duser.language=fr,-Duser.variant]
+18:19:58.872 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [d0c5a529-90dc-44cd-a3b0-671a680498df port:54176, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], context: DefaultDaemonContext[uid=0c8960bf-3a95-4eff-8877-388066ab9434,javaHome=C:\Program Files\Java\jre1.8.0_202,daemonRegistryDir=C:\Users\lorik\.gradle\daemon,pid=18384,idleTimeout=120000,daemonOpts=-Xms128m,-Xmx1500m,-Dfile.encoding=windows-1252,-Duser.country=FR,-Duser.language=fr,-Duser.variant]
+18:19:58.878 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:19:58.880 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+18:19:58.882 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:19:58.883 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+18:19:58.883 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+18:19:58.886 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+18:19:58.887 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+18:19:58.888 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+18:19:59.187 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:54177 to /127.0.0.1:54176.
+18:19:59.245 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received class org.gradle.launcher.daemon.protocol.Build
+18:19:59.245 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received non-IO message from client: Build{id=95f7e8e0-42e4-411e-a34b-6a1b1bc2f6bc.1, currentDir=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame}
+18:19:59.245 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=95f7e8e0-42e4-411e-a34b-6a1b1bc2f6bc.1, currentDir=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame}.
+18:19:59.245 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=95f7e8e0-42e4-411e-a34b-6a1b1bc2f6bc.1, currentDir=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame} with connection: socket connection from /127.0.0.1:54176 to /127.0.0.1:54177.
+18:19:59.247 [ERROR] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=95f7e8e0-42e4-411e-a34b-6a1b1bc2f6bc.1, currentDir=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54176 to /127.0.0.1:54177] after 0.0 minutes of idle
+18:19:59.247 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [d0c5a529-90dc-44cd-a3b0-671a680498df port:54176, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:19:59.247 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [d0c5a529-90dc-44cd-a3b0-671a680498df port:54176, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:19:59.247 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:19:59.248 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+18:19:59.249 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:19:59.249 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+18:19:59.249 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+18:19:59.249 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=95f7e8e0-42e4-411e-a34b-6a1b1bc2f6bc.1, currentDir=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame}. Dispatching build started information...
+18:19:59.250 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+18:19:59.252 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-N52HB3G, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, =ExitCode=00000000, DIRNAME=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame\, USERNAME=lorik, CMD_LINE_ARGS=clean --no-daemon eclipse afterEclipseImport, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, APP_HOME=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame\, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\lorik\OneDrive, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\lorik, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, _SKIP=2, LOCALAPPDATA=C:\Users\lorik\AppData\Local, USERDOMAIN=DESKTOP-N52HB3G, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-N52HB3G, PROMPT=$P$G, OneDrive=C:\Users\lorik\OneDrive, =C:=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame, APPDATA=C:\Users\lorik\AppData\Roaming, JAVA_EXE=java.exe, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\lorik\AppData\Local\Microsoft\WindowsApps;D:\Projet Visual Studio\Microsoft VS Code\bin;C:\Users\lorik\AppData\Local\Microsoft\WindowsApps;D:\Projet Visual Studio\Microsoft VS Code\bin;C:\Users\lorik\AppData\Local\GitHubDesktop\bin, OS=Windows_NT, COMPUTERNAME=DESKTOP-N52HB3G, PROCESSOR_REVISION=9e0a, CLASSPATH=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame\\gradle\wrapper\gradle-wrapper.jar, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, APP_BASE_NAME=gradlew, SystemRoot=C:\WINDOWS, TEMP=C:\Users\lorik\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\lorik, TMP=C:\Users\lorik\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12}
+18:19:59.257 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+18:19:59.258 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 18384). The daemon log file: C:\Users\lorik\.gradle\daemon\4.6\daemon-18384.out.log
+18:19:59.259 [DEBUG] [org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon] Requesting daemon stop after processing Build{id=95f7e8e0-42e4-411e-a34b-6a1b1bc2f6bc.1, currentDir=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame}
+18:19:59.259 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build stopping after processing
+18:19:59.259 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop as soon as idle requested. The daemon is busy: true
+18:19:59.259 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon stop has been requested. Sleeping until state changes.
+18:19:59.260 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+18:19:59.261 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=0c8960bf-3a95-4eff-8877-388066ab9434,javaHome=C:\Program Files\Java\jre1.8.0_202,daemonRegistryDir=C:\Users\lorik\.gradle\daemon,pid=18384,idleTimeout=120000,daemonOpts=-Xms128m,-Xmx1500m,-Dfile.encoding=windows-1252,-Duser.country=FR,-Duser.language=fr,-Duser.variant]
+:core:clean UP-TO-DATE
+:desktop:clean UP-TO-DATE
+:eclipseProject
+:eclipse
+:core:eclipseClasspath
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-freetype/1.9.9/gdx-freetype-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-controllers/1.9.9/gdx-controllers-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx/1.9.9/gdx-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-box2d/1.9.9/gdx-box2d-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/ashley/ashley/1.7.0/ashley-1.7.0.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/box2dlights/box2dlights/1.4/box2dlights-1.4.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-bullet/1.9.9/gdx-bullet-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-ai/1.8.0/gdx-ai-1.8.0.pom
+Download https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/5/oss-parent-5.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-controllers-parent/1.9.9/gdx-controllers-parent-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-box2d-parent/1.9.9/gdx-box2d-parent-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-parent/1.9.9/gdx-parent-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-freetype/1.9.9/gdx-freetype-1.9.9.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-box2d/1.9.9/gdx-box2d-1.9.9.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx/1.9.9/gdx-1.9.9.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-controllers/1.9.9/gdx-controllers-1.9.9.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/box2dlights/box2dlights/1.4/box2dlights-1.4.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/ashley/ashley/1.7.0/ashley-1.7.0.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-ai/1.8.0/gdx-ai-1.8.0.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-bullet/1.9.9/gdx-bullet-1.9.9.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-controllers/1.9.9/gdx-controllers-1.9.9-sources.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-freetype/1.9.9/gdx-freetype-1.9.9-sources.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-bullet/1.9.9/gdx-bullet-1.9.9-sources.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/ashley/ashley/1.7.0/ashley-1.7.0-sources.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-ai/1.8.0/gdx-ai-1.8.0-sources.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/box2dlights/box2dlights/1.4/box2dlights-1.4-sources.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-box2d/1.9.9/gdx-box2d-1.9.9-sources.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx/1.9.9/gdx-1.9.9-sources.jar
+:core:eclipseJdt
+:core:eclipseProject
+:core:eclipse
+:desktop:eclipseClasspath
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-backend-lwjgl/1.9.9/gdx-backend-lwjgl-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-bullet-platform/1.9.9/gdx-bullet-platform-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-platform/1.9.9/gdx-platform-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-box2d-platform/1.9.9/gdx-box2d-platform-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-tools/1.9.9/gdx-tools-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-controllers-platform/1.9.9/gdx-controllers-platform-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-controllers-desktop/1.9.9/gdx-controllers-desktop-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-freetype-platform/1.9.9/gdx-freetype-platform-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.pom
+Download https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl/2.9.2/lwjgl-2.9.2.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/jlayer/jlayer/1.0.1-gdx/jlayer-1.0.1-gdx.pom
+Download https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl_util/2.9.2/lwjgl_util-2.9.2.pom
+Download https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/parent/2.9.2/parent-2.9.2.pom
+Download https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-backend-headless/1.9.9/gdx-backend-headless-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/net/java/jinput/jinput/2.0.5/jinput-2.0.5.pom
+Download https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl-platform/2.9.2/lwjgl-platform-2.9.2.pom
+Download https://repo.maven.apache.org/maven2/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5.pom
+Download https://repo.maven.apache.org/maven2/net/java/jutils/jutils/1.0.0/jutils-1.0.0.pom
+Download https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl_util/2.9.2/lwjgl_util-2.9.2.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/jlayer/jlayer/1.0.1-gdx/jlayer-1.0.1-gdx.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-box2d-platform/1.9.9/gdx-box2d-platform-1.9.9-natives-desktop.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-backend-headless/1.9.9/gdx-backend-headless-1.9.9.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-controllers-desktop/1.9.9/gdx-controllers-desktop-1.9.9.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-backend-lwjgl/1.9.9/gdx-backend-lwjgl-1.9.9.jar
+Download https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl/2.9.2/lwjgl-2.9.2.jar
+Download https://repo.maven.apache.org/maven2/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar
+Download https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl-platform/2.9.2/lwjgl-platform-2.9.2-natives-windows.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-controllers-platform/1.9.9/gdx-controllers-platform-1.9.9-natives-desktop.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-platform/1.9.9/gdx-platform-1.9.9-natives-desktop.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-tools/1.9.9/gdx-tools-1.9.9.jar
+Download https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl-platform/2.9.2/lwjgl-platform-2.9.2-natives-linux.jar
+Download https://repo.maven.apache.org/maven2/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar
+Download https://repo.maven.apache.org/maven2/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar
+Download https://repo.maven.apache.org/maven2/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar
+Download https://repo.maven.apache.org/maven2/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar
+Download https://repo.maven.apache.org/maven2/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar
+Download https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl-platform/2.9.2/lwjgl-platform-2.9.2-natives-osx.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-freetype-platform/1.9.9/gdx-freetype-platform-1.9.9-natives-desktop.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-bullet-platform/1.9.9/gdx-bullet-platform-1.9.9-natives-desktop.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-tools/1.9.9/gdx-tools-1.9.9-sources.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-backend-lwjgl/1.9.9/gdx-backend-lwjgl-1.9.9-sources.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-controllers-desktop/1.9.9/gdx-controllers-desktop-1.9.9-sources.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-backend-headless/1.9.9/gdx-backend-headless-1.9.9-sources.jar
+Download https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl_util/2.9.2/lwjgl_util-2.9.2-sources.jar
+Download https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl/2.9.2/lwjgl-2.9.2-sources.jar
+Download https://repo.maven.apache.org/maven2/com/badlogicgames/jlayer/jlayer/1.0.1-gdx/jlayer-1.0.1-gdx-sources.jar
+Download https://repo.maven.apache.org/maven2/org/jcraft/jorbis/0.0.17/jorbis-0.0.17-sources.jar
+Download https://repo.maven.apache.org/maven2/net/java/jinput/jinput/2.0.5/jinput-2.0.5-sources.jar
+Download https://repo.maven.apache.org/maven2/net/java/jutils/jutils/1.0.0/jutils-1.0.0-sources.jar
+:desktop:eclipseJdt
+:desktop:eclipseProject
+:desktop:eclipse
+:desktop:afterEclipseImport
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 12s
+11 actionable tasks: 9 executed, 2 up-to-date
+18:20:09.684 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+18:20:09.692 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon stop has been requested. Sleeping until state changes.
+18:20:09.693 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=95f7e8e0-42e4-411e-a34b-6a1b1bc2f6bc.1, currentDir=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54176 to /127.0.0.1:54177]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@47ae8c55 with state StopRequested
+18:20:09.693 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=95f7e8e0-42e4-411e-a34b-6a1b1bc2f6bc.1, currentDir=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:54176 to /127.0.0.1:54177]
+18:20:09.693 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+18:20:09.693 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to command completed and stop requested. The daemon is running a build: false
+18:20:09.693 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+18:20:09.693 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+18:20:09.693 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=null]
+18:20:09.693 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+18:20:09.693 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: dispatching class org.gradle.launcher.daemon.protocol.Success
+18:20:09.694 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [d0c5a529-90dc-44cd-a3b0-671a680498df port:54176, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:20:09.694 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [d0c5a529-90dc-44cd-a3b0-671a680498df port:54176, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:20:09.695 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=95f7e8e0-42e4-411e-a34b-6a1b1bc2f6bc.1, currentDir=C:\Users\lorik\Documents\GitHub\ProjetLibGDX\PiratesGame}
+18:20:09.695 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:20:09.695 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+18:20:09.696 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:20:09.696 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+18:20:09.696 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received class org.gradle.launcher.daemon.protocol.CloseInput
+18:20:09.696 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@46711dd3
+18:20:09.698 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received class org.gradle.launcher.daemon.protocol.Finished
+18:20:09.698 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@7dfc4059
+18:20:09.698 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@7dfc4059
+18:20:09.698 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: stopping connection
+18:20:09.699 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+18:20:09.699 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received null
+18:20:09.699 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received end-of-input from client.
+18:20:09.699 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: stopping connection
+18:20:09.700 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache jars (C:\Users\lorik\.gradle\caches\jars-3) was closed 0 times.
+18:20:09.700 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (C:\Users\lorik\.gradle\caches\4.6\fileHashes)
+18:20:09.700 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (C:\Users\lorik\.gradle\caches\4.6\fileHashes\fileHashes.bin)
+18:20:09.700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (C:\Users\lorik\.gradle\caches\4.6\fileHashes).
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+18:20:09.702 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [d0c5a529-90dc-44cd-a3b0-671a680498df port:54176, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:20:09.702 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:20:09.703 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+18:20:09.703 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
