@@ -1,4 +1,4 @@
-# LearnProgramming
+# DiscoverLibGDX
 
 https://libgdx.badlogicgames.com/ 
 
